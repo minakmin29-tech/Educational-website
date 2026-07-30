@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Образовательный центр</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="container header-inner">
+            <a href="#" class="logo">
+                <img src="img/logo.png" alt="Логотип">
+            </a>
+            <nav>
+                <ul>
+                    <li><a href="#">Программы обучения</a></li>
+                    <li><a href="#">Выпускники</a></li>
+                    <li><a href="#">Как поступить</a></li>
+                    <li><a href="#">Контакты</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container hero-inner">
+            <div class="hero-text">
+                <h1>Учёба ещё никогда не была такой интересной!</h1>
+                <p>Обучаем готовых к трудоустройству специалистов на теоретических и практических курсах.</p>
+                <a href="#" class="btn">Подать заявку</a>
+            </div>
+            <img src="img/phoone.png" alt="Телефон с приложением">
+        </div>
+    </section>
+
+    <section class="features">
+        <div class="container features-grid">
+            <div class="feature-item">
+                <img src="img/1.jpg" alt="Календарь">
+                <h3>Гибкий график обучения</h3>
+                <p>Современный темп жизни требует гибкого подхода к расписанию</p>
+            </div>
+            <div class="feature-item">
+                <img src="img/2.jpg" alt="Инструменты">
+                <h3>Практические занятия</h3>
+                <p>На одной теории далеко не уедешь, поэтому мы обучаем на практике</p>
+            </div>
+            <div class="feature-item">
+                <img src="img/3.jpg" alt="Компьютер">
+                <h3>Не оставим без работы</h3>
+                <p>Хорошие специалисты всегда в цене, и вы станете именно таким</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="format">
+        <div class="container">
+            <h2>Формы обучения</h2>
+            <div class="table-wrap">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Название</th>
+                            <th>Длительность</th>
+                            <th>Описание</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Дневное обучение</td>
+                            <td>4 года</td>
+                            <td>Наиболее интенсивный вариант обучения для тех, кто не терпит компромиссов ни в чём</td>
+                        </tr>
+                        <tr>
+                            <td>Вечернее обучение</td>
+                            <td>5 лет</td>
+                            <td>Вынуждены совмещать учёбу с работой? Дадим вам такую возможность — совмещайте на здоровье</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <section class="feedback">
+        <div class="container feedback-inner">
+            <div class="feedback-form-wrap">
+                <h2>Обратная связь</h2>
+                <form method="post" class="feedback-form">
+                    <div class="form-row">
+                        <label for="name">ФИО:</label>
+                        <input type="text" id="name" name="name" placeholder="Представьтесь, пожалуйста">
+                    </div>
+                    <div class="form-row">
+                        <label>Пол:</label>
+                        <div class="radio-group">
+                            <input type="radio" id="man" name="sex" value="man" checked>
+                            <label for="man">Мужской</label>
+                            <input type="radio" id="woman" name="sex" value="woman">
+                            <label for="woman">Женский</label>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <label for="comment">Доп. текст:</label>
+                        <textarea id="comment" name="comment" placeholder="Сообщите всё, что считаете нужным"></textarea>
+                    </div>
+                    <div class="form-row">
+                        <label></label>
+                        <button type="submit" class="submit-btn">Отправить</button>
+                    </div>
+                </form>
+            </div>
+            <div class="feedback-text">
+                <h3>Заинтересовались обучением на нашей кафедре?</h3>
+                <p>Заполните короткую форму обратной связи и отправьте нам.</p>
+                <p>Мы подготовим для вас индивидуальное предложение и выйдем на связь!</p>
+                <p><strong>Внимание!</strong> Все поля обязательны для заполнения.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container footer-inner">
+            <div class="footer-left">
+                <img src="img/logo.png" alt="Логотип">
+                <address>197101, г. Санкт-Петербург,<br>пр. Кронверкский, д. 49</address>
+            </div>
+            <nav class="footer-nav">
+                <ul>
+                    <li class="nav-title">Обучение</li>
+                    <li><a href="#">Расписание</a></li>
+                    <li><a href="#">Предметы</a></li>
+                    <li><a href="#">Практика</a></li>
+                </ul>
+                <ul>
+                    <li class="nav-title">Выпускники</li>
+                    <li><a href="#">Достижения</a></li>
+                    <li><a href="#">Отзывы</a></li>
+                    <li><a href="#">Найти</a></li>
+                </ul>
+                <ul>
+                    <li class="nav-title">Как поступить</li>
+                    <li><a href="#">На коммерцию</a></li>
+                    <li><a href="#">Целевой набор</a></li>
+                    <li><a href="#">На бюджет</a></li>
+                </ul>
+                <ul>
+                    <li class="nav-title">Контакты</li>
+                    <li><a href="#">Обратная связь</a></li>
+                    <li><a href="#">Схема проезда</a></li>
+                    <li><a href="#">Телефон/факс</a></li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
+
+</body>
+</html>
