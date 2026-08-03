@@ -5,3 +5,4 @@
 **Технологии:** HTML, CSS (Flexbox)
 
 **Смотреть:** https://minakmin29-tech.github.io/Educational-website/
+![скриншот](screenshot.png)
